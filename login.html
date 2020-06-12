@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    </head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="assets/images/linkedin.png"/>
+                <img src="assets/images/instagram-esbocado.png"/>
+                <img src="assets/images/facebook.png"/>
+            </div>
+            <div class="formularios">
+                <form method="POST" id="login" class="input-group" action="login.php" >
+                    <input type="email" name="email" class="input-field" placeholder="E-mail" required>
+                    <input type="text" name="senha" class="input-field" placeholder="Password" required>
+                    <button type="submit" class="submit-btn"> LOG IN</button>
+                </form>
+                <form method="POST" id="register" class="input-group" action="adicionar_action.php">
+                    <input type="text" name="name" class="input-field" placeholder="User Id" required>
+                    <input type="email" name="email" class="input-field" placeholder="E-mail" required>
+                    <input type="text" name="senha" class="input-field" placeholder="Enter Password" required>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        <div class="verusuarios">
+            <a href="lista.php" class="usu-btn">Usuários</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <footer>
+    Créditos da imagem
+<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by pikisuperstar - www.freepik.com</a>
+Ícones feitos por <a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+Ícones feitos por <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+Ícones feitos por <a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a>
+</footer>
+</body>
+</html>
